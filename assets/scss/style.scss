@@ -1,0 +1,38 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+body {
+    // background-color: rgb(189, 176, 241); /*rgb(189, 176, 241)*/
+    background-image: linear-gradient(to right, #0039e6, #1a53ff, #4d79ff, #668cff, #809fff, #99b3ff, #b3c6ff);
+    #form {
+        margin: 10% auto;
+        width: 30%;
+        min-width: 20%;
+        .form-group {
+            color: rgb(247, 247, 247);
+            font-size: 20px;
+        }
+        span {
+            display: block;
+        }
+        .btn {
+            width: 100px;
+            margin-top: 10px;
+            background: #e6ecff;
+            transition: 0.1s;
+        }
+    }
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    color: #3565f5;
+}
